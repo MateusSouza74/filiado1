@@ -1,0 +1,19 @@
+# =============================================
+# Affiliate Bot - Dependências
+# =============================================
+# Instalar: pip install -r requirements.txt
+
+# --- Telegram ---
+telethon>=1.36.0            # Listener de canais (user account)
+requests>=2.31.0            # HTTP para Bot API e scraping
+
+# --- Configuração ---
+python-dotenv>=1.0.0        # Leitura do arquivo .env
+
+# --- Selenium (Mercado Livre) ---
+selenium>=4.18.0            # Automação do painel ML
+webdriver-manager>=4.0.1    # Download automático do ChromeDriver
+
+# --- Testes ---
+pytest>=8.0.0               # Framework de testes
+pytest-asyncio>=0.23.0      # Suporte a testes assíncronos

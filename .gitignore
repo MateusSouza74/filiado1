@@ -1,5 +1,31 @@
-# Object file
-*.o
+# Ambiente e Segredos
+.env
+*.session
+*.session-journal
 
-# Ada Library Information
-*.ali
+# Dados persistentes (não versionar)
+data/
+logs/
+ml_chrome_profile/
+temp_midia*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
